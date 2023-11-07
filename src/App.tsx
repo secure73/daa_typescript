@@ -3,21 +3,12 @@ import Ali from './components/Ali';
 import Merker from './components/Merker';
 import StudentList from './components/StudentList';
 import Student from './components/Student';
+import EmployeeTable from './components/EmployeeTable';
 
 function App() {
-  const users = [
-    <Student studentName='ali' studentAge={15}/>
-  ]
   return (
     <div className="App">
-      <Ali/>
-      <Merker/>
-      <StudentList>
-        <Student studentName='ali' studentAge={15}/>
-        <Student studentName='ali' studentAge={15}/>
-        <Student studentName='ali' studentAge={15}/>
-        <Student studentName='ali' studentAge={15}/>
-      </StudentList>
+      <EmployeeTable/>
     </div>
   );
 }

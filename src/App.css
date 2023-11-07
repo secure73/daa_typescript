@@ -40,3 +40,13 @@
     transform: rotate(360deg);
   }
 }
+
+.table{
+  border-width: 2px;
+  background-color: darkseagreen;
+}
+.table td{
+  border-style: double;
+  border-color: #282c34;
+  mask-border-outset: 3;
+}
