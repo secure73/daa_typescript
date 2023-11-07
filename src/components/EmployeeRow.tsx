@@ -1,4 +1,5 @@
 import React from 'react'
+import EditBtn from './EditBtn';
 /**
  * 
 *
@@ -24,7 +25,7 @@ const EmployeeRow = (props:ComponentProps) => {
             <td>{props.employee_salary}</td>
             <td>{props.employee_age}</td>
             <td>{props.profile_image}</td>
-            <td>edit btn</td>
+            <td><EditBtn/></td>
         </tr>
     )
 }
